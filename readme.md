@@ -15,7 +15,7 @@ For the documents install linuxcnc-doc-en_2.8.0-pre1_all.deb in the same manner.
 
 Basic System is Linux-Mint 19.2 mate: https://www.linuxmint.com/edition.php?id=269
 
-have fun but use it on your own risc!
+have fun but use it on your own risk!
 
 
 

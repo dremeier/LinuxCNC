@@ -1,0 +1,46 @@
+Format: 1.8
+Date: Tue, 17 Sep 2019 16:29:25 +0200
+Source: linux-4.19.72-rt25-stable
+Binary: linux-image-4.19.72-rt25-stable linux-headers-4.19.72-rt25-stable linux-libc-dev linux-image-4.19.72-rt25-stable-dbg
+Architecture: source amd64
+Version: 4.19.72-rt25-stable-1
+Distribution: tina
+Urgency: low
+Maintainer: emc <emc@LinuxCNC>
+Changed-By: emc <emc@LinuxCNC>
+Description:
+ linux-headers-4.19.72-rt25-stable - Linux kernel headers for 4.19.72-rt25-stable on amd64
+ linux-image-4.19.72-rt25-stable - Linux kernel, version 4.19.72-rt25-stable
+ linux-image-4.19.72-rt25-stable-dbg - Linux kernel debugging symbols for 4.19.72-rt25-stable
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-4.19.72-rt25-stable (4.19.72-rt25-stable-1) tina; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ ebf7f07c8d9ff655ea06a5c5c0af3b486eda8443 1294 linux-4.19.72-rt25-stable_4.19.72-rt25-stable-1.dsc
+ c7bea58c18d071d6b9a0a14851ee6b2fa1dcf1d6 165370420 linux-4.19.72-rt25-stable_4.19.72-rt25-stable.orig.tar.gz
+ 287f968b0ed37d8c4e268d20eb19298561c2170c 260803 linux-4.19.72-rt25-stable_4.19.72-rt25-stable-1.diff.gz
+ ce1b8597c33cdd1d480603a29a84030332f92cc7 14060 linux-4.19.72-rt25-stable_4.19.72-rt25-stable-1_amd64.buildinfo
+ 6b040ae7fbf049adac7effbbc69769809ff28a94 10833452 linux-headers-4.19.72-rt25-stable_4.19.72-rt25-stable-1_amd64.deb
+ beac8d8bae0bda35ea28866b5747ea6ef44b1d2d 742871904 linux-image-4.19.72-rt25-stable-dbg_4.19.72-rt25-stable-1_amd64.deb
+ 08f2228f374bd134b3dcf00b5faf19c77b90a74b 53106760 linux-image-4.19.72-rt25-stable_4.19.72-rt25-stable-1_amd64.deb
+ 720323ccb932b5c9d46da51c0a71c6c803078fc5 1014884 linux-libc-dev_4.19.72-rt25-stable-1_amd64.deb
+Checksums-Sha256:
+ aaf7fe91376d42e6a054a4017ddaa9e3039e14e31aafd52c32667e842795ccc1 1294 linux-4.19.72-rt25-stable_4.19.72-rt25-stable-1.dsc
+ e00bcddc0aad7a2ce4e8b395d94066fcddbc23f6938d18e51188546462a3c72c 165370420 linux-4.19.72-rt25-stable_4.19.72-rt25-stable.orig.tar.gz
+ 6ea70d37ae84c9913b633bd55b1efb9e3c7b23a804593aba0daac7f8573de76b 260803 linux-4.19.72-rt25-stable_4.19.72-rt25-stable-1.diff.gz
+ 2fbf1968ce723dd205f1fdf584b8b86e57636b30bc1ea123a5562269169db3d5 14060 linux-4.19.72-rt25-stable_4.19.72-rt25-stable-1_amd64.buildinfo
+ 49b936703ab5183ac39bab5bd8895bd2e5262db711f2acd84c054b615c75aabf 10833452 linux-headers-4.19.72-rt25-stable_4.19.72-rt25-stable-1_amd64.deb
+ 16a5202971be4dfac18bb581943c1f4cd1658baa00db9b7b7fcdde736b7637dd 742871904 linux-image-4.19.72-rt25-stable-dbg_4.19.72-rt25-stable-1_amd64.deb
+ 4b276b656e127ec5573181a97894977ac1eeec4aec21c1207492333721a322b9 53106760 linux-image-4.19.72-rt25-stable_4.19.72-rt25-stable-1_amd64.deb
+ feca074d3b87238a63d5ea8c2f9038735b0011a0dd41c8772fc886ede61aa092 1014884 linux-libc-dev_4.19.72-rt25-stable-1_amd64.deb
+Files:
+ cd825919793ff41652b07146d65e0e65 1294 kernel optional linux-4.19.72-rt25-stable_4.19.72-rt25-stable-1.dsc
+ c69f29bb690e3050170f857143ca601e 165370420 kernel optional linux-4.19.72-rt25-stable_4.19.72-rt25-stable.orig.tar.gz
+ aabc268896ef11417ab07ab1e107221a 260803 kernel optional linux-4.19.72-rt25-stable_4.19.72-rt25-stable-1.diff.gz
+ b6935a028ead42a3508e770b89682581 14060 kernel optional linux-4.19.72-rt25-stable_4.19.72-rt25-stable-1_amd64.buildinfo
+ 6545f0556b90ff1681f130aa4500c79a 10833452 kernel optional linux-headers-4.19.72-rt25-stable_4.19.72-rt25-stable-1_amd64.deb
+ 509ef8dfe275b3b4991bdf5b1bdfad75 742871904 debug optional linux-image-4.19.72-rt25-stable-dbg_4.19.72-rt25-stable-1_amd64.deb
+ 2dac1452bbe9fa26d787f8abd696387a 53106760 kernel optional linux-image-4.19.72-rt25-stable_4.19.72-rt25-stable-1_amd64.deb
+ 6b5716f1ce4434394038da96eb1af67b 1014884 devel optional linux-libc-dev_4.19.72-rt25-stable-1_amd64.deb
